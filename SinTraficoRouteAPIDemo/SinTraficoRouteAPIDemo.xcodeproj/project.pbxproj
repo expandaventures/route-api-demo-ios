@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DAA57681CD0097000C0DAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57671CD0097000C0DAAC /* main.m */; };
+		7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576A1CD0097000C0DAAC /* AppDelegate.m */; };
+		7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576D1CD0097000C0DAAC /* ViewController.m */; };
+		7DAA57711CD0097000C0DAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA576F1CD0097000C0DAAC /* Main.storyboard */; };
+		7DAA57731CD0097000C0DAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57721CD0097000C0DAAC /* Assets.xcassets */; };
+		7DAA57761CD0097000C0DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */; };
+		7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */; };
+		7DAA578C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DAA577D1CD0097000C0DAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DAA575B1CD0097000C0DAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DAA57621CD0097000C0DAAC;
+			remoteInfo = SinTraficoRouteAPIDemo;
+		};
+		7DAA57881CD0097000C0DAAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DAA575B1CD0097000C0DAAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DAA57621CD0097000C0DAAC;
+			remoteInfo = SinTraficoRouteAPIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinTraficoRouteAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAA57671CD0097000C0DAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DAA57691CD0097000C0DAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DAA576A1CD0097000C0DAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DAA576C1CD0097000C0DAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DAA576D1CD0097000C0DAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DAA57701CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DAA57721CD0097000C0DAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DAA57751CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DAA57771CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinTraficoRouteAPIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinTraficoRouteAPIDemoTests.m; sourceTree = "<group>"; };
+		7DAA57821CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinTraficoRouteAPIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinTraficoRouteAPIDemoUITests.m; sourceTree = "<group>"; };
+		7DAA578D1CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DAA57601CD0097000C0DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA57791CD0097000C0DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA57841CD0097000C0DAAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DAA575A1CD0097000C0DAAC = {
+			isa = PBXGroup;
+			children = (
+				7DAA57651CD0097000C0DAAC /* SinTraficoRouteAPIDemo */,
+				7DAA577F1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */,
+				7DAA578A1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */,
+				7DAA57641CD0097000C0DAAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DAA57641CD0097000C0DAAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */,
+				7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */,
+				7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DAA57651CD0097000C0DAAC /* SinTraficoRouteAPIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DAA57691CD0097000C0DAAC /* AppDelegate.h */,
+				7DAA576A1CD0097000C0DAAC /* AppDelegate.m */,
+				7DAA576C1CD0097000C0DAAC /* ViewController.h */,
+				7DAA576D1CD0097000C0DAAC /* ViewController.m */,
+				7DAA576F1CD0097000C0DAAC /* Main.storyboard */,
+				7DAA57721CD0097000C0DAAC /* Assets.xcassets */,
+				7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */,
+				7DAA57771CD0097000C0DAAC /* Info.plist */,
+				7DAA57661CD0097000C0DAAC /* Supporting Files */,
+			);
+			path = SinTraficoRouteAPIDemo;
+			sourceTree = "<group>";
+		};
+		7DAA57661CD0097000C0DAAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DAA57671CD0097000C0DAAC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DAA577F1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */,
+				7DAA57821CD0097000C0DAAC /* Info.plist */,
+			);
+			path = SinTraficoRouteAPIDemoTests;
+			sourceTree = "<group>";
+		};
+		7DAA578A1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */,
+				7DAA578D1CD0097000C0DAAC /* Info.plist */,
+			);
+			path = SinTraficoRouteAPIDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAA57901CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemo" */;
+			buildPhases = (
+				7DAA575F1CD0097000C0DAAC /* Sources */,
+				7DAA57601CD0097000C0DAAC /* Frameworks */,
+				7DAA57611CD0097000C0DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinTraficoRouteAPIDemo;
+			productName = SinTraficoRouteAPIDemo;
+			productReference = 7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DAA577B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAA57931CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoTests" */;
+			buildPhases = (
+				7DAA57781CD0097000C0DAAC /* Sources */,
+				7DAA57791CD0097000C0DAAC /* Frameworks */,
+				7DAA577A1CD0097000C0DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DAA577E1CD0097000C0DAAC /* PBXTargetDependency */,
+			);
+			name = SinTraficoRouteAPIDemoTests;
+			productName = SinTraficoRouteAPIDemoTests;
+			productReference = 7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DAA57861CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DAA57961CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoUITests" */;
+			buildPhases = (
+				7DAA57831CD0097000C0DAAC /* Sources */,
+				7DAA57841CD0097000C0DAAC /* Frameworks */,
+				7DAA57851CD0097000C0DAAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DAA57891CD0097000C0DAAC /* PBXTargetDependency */,
+			);
+			name = SinTraficoRouteAPIDemoUITests;
+			productName = SinTraficoRouteAPIDemoUITests;
+			productReference = 7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DAA575B1CD0097000C0DAAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SinTrafico;
+				TargetAttributes = {
+					7DAA57621CD0097000C0DAAC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7DAA577B1CD0097000C0DAAC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7DAA57621CD0097000C0DAAC;
+					};
+					7DAA57861CD0097000C0DAAC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7DAA57621CD0097000C0DAAC;
+					};
+				};
+			};
+			buildConfigurationList = 7DAA575E1CD0097000C0DAAC /* Build configuration list for PBXProject "SinTraficoRouteAPIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DAA575A1CD0097000C0DAAC;
+			productRefGroup = 7DAA57641CD0097000C0DAAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */,
+				7DAA577B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */,
+				7DAA57861CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DAA57611CD0097000C0DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAA57761CD0097000C0DAAC /* LaunchScreen.storyboard in Resources */,
+				7DAA57731CD0097000C0DAAC /* Assets.xcassets in Resources */,
+				7DAA57711CD0097000C0DAAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA577A1CD0097000C0DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA57851CD0097000C0DAAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DAA575F1CD0097000C0DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */,
+				7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */,
+				7DAA57681CD0097000C0DAAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA57781CD0097000C0DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAA57831CD0097000C0DAAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAA578C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DAA577E1CD0097000C0DAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */;
+			targetProxy = 7DAA577D1CD0097000C0DAAC /* PBXContainerItemProxy */;
+		};
+		7DAA57891CD0097000C0DAAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */;
+			targetProxy = 7DAA57881CD0097000C0DAAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DAA576F1CD0097000C0DAAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAA57701CD0097000C0DAAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DAA57751CD0097000C0DAAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DAA578E1CD0097000C0DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DAA578F1CD0097000C0DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DAA57911CD0097000C0DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinTraficoRouteAPIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DAA57921CD0097000C0DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SinTraficoRouteAPIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DAA57941CD0097000C0DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinTraficoRouteAPIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo";
+			};
+			name = Debug;
+		};
+		7DAA57951CD0097000C0DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SinTraficoRouteAPIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo";
+			};
+			name = Release;
+		};
+		7DAA57971CD0097000C0DAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinTraficoRouteAPIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinTraficoRouteAPIDemo;
+			};
+			name = Debug;
+		};
+		7DAA57981CD0097000C0DAAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SinTraficoRouteAPIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SinTraficoRouteAPIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DAA575E1CD0097000C0DAAC /* Build configuration list for PBXProject "SinTraficoRouteAPIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAA578E1CD0097000C0DAAC /* Debug */,
+				7DAA578F1CD0097000C0DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DAA57901CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAA57911CD0097000C0DAAC /* Debug */,
+				7DAA57921CD0097000C0DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DAA57931CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAA57941CD0097000C0DAAC /* Debug */,
+				7DAA57951CD0097000C0DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DAA57961CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DAA57971CD0097000C0DAAC /* Debug */,
+				7DAA57981CD0097000C0DAAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DAA575B1CD0097000C0DAAC /* Project object */;
+}
