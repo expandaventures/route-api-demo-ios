@@ -1,555 +1,1402 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		7DAA57681CD0097000C0DAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57671CD0097000C0DAAC /* main.m */; };
-		7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576A1CD0097000C0DAAC /* AppDelegate.m */; };
-		7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576D1CD0097000C0DAAC /* ViewController.m */; };
-		7DAA57711CD0097000C0DAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA576F1CD0097000C0DAAC /* Main.storyboard */; };
-		7DAA57731CD0097000C0DAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57721CD0097000C0DAAC /* Assets.xcassets */; };
-		7DAA57761CD0097000C0DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */; };
-		7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */; };
-		7DAA578C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */; };
-		7DAA579A1CD00C2D00C0DAAC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAA57991CD00C2D00C0DAAC /* MapKit.framework */; };
-		7DAA579D1CD00F1C00C0DAAC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */; };
-		7DAA579E1CD00F1C00C0DAAC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */; };
-		7DAA579F1CD00F1C00C0DAAC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */; };
-		7DAA57A11CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
-		7DAA57A21CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
-		7DAA57A31CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
-		7DAA57A71CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
-		7DAA57A81CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
-		7DAA57A91CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7DAA577D1CD0097000C0DAAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DAA575B1CD0097000C0DAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DAA57621CD0097000C0DAAC;
-			remoteInfo = SinTraficoRouteAPIDemo;
-		};
-		7DAA57881CD0097000C0DAAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7DAA575B1CD0097000C0DAAC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7DAA57621CD0097000C0DAAC;
-			remoteInfo = SinTraficoRouteAPIDemo;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinTraficoRouteAPIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DAA57671CD0097000C0DAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7DAA57691CD0097000C0DAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7DAA576A1CD0097000C0DAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DAA576C1CD0097000C0DAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DAA576D1CD0097000C0DAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7DAA57701CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7DAA57721CD0097000C0DAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7DAA57751CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DAA57771CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinTraficoRouteAPIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinTraficoRouteAPIDemoTests.m; sourceTree = "<group>"; };
-		7DAA57821CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinTraficoRouteAPIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinTraficoRouteAPIDemoUITests.m; sourceTree = "<group>"; };
-		7DAA578D1CD0097000C0DAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DAA57991CD00C2D00C0DAAC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		7DAA579B1CD00F1C00C0DAAC /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
-		7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		7DAA57A01CD0168200C0DAAC /* STLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLocation.m; sourceTree = "<group>"; };
-		7DAA57A41CD016A000C0DAAC /* STLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLocation.h; sourceTree = "<group>"; };
-		7DAA57A51CD10C1F00C0DAAC /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
-		7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7DAA57601CD0097000C0DAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DAA579A1CD00C2D00C0DAAC /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA57791CD0097000C0DAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA57841CD0097000C0DAAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		7DAA575A1CD0097000C0DAAC = {
-			isa = PBXGroup;
-			children = (
-				7DAA57651CD0097000C0DAAC /* SinTraficoRouteAPIDemo */,
-				7DAA577F1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */,
-				7DAA578A1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */,
-				7DAA57641CD0097000C0DAAC /* Products */,
-				7DAA57991CD00C2D00C0DAAC /* MapKit.framework */,
-			);
-			sourceTree = "<group>";
-		};
-		7DAA57641CD0097000C0DAAC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */,
-				7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */,
-				7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DAA57651CD0097000C0DAAC /* SinTraficoRouteAPIDemo */ = {
-			isa = PBXGroup;
-			children = (
-				7DAA57691CD0097000C0DAAC /* AppDelegate.h */,
-				7DAA576A1CD0097000C0DAAC /* AppDelegate.m */,
-				7DAA576C1CD0097000C0DAAC /* ViewController.h */,
-				7DAA576D1CD0097000C0DAAC /* ViewController.m */,
-				7DAA576F1CD0097000C0DAAC /* Main.storyboard */,
-				7DAA579B1CD00F1C00C0DAAC /* MapViewController.h */,
-				7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */,
-				7DAA57A51CD10C1F00C0DAAC /* OptionsViewController.h */,
-				7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */,
-				7DAA57A41CD016A000C0DAAC /* STLocation.h */,
-				7DAA57A01CD0168200C0DAAC /* STLocation.m */,
-				7DAA57721CD0097000C0DAAC /* Assets.xcassets */,
-				7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */,
-				7DAA57771CD0097000C0DAAC /* Info.plist */,
-				7DAA57661CD0097000C0DAAC /* Supporting Files */,
-			);
-			path = SinTraficoRouteAPIDemo;
-			sourceTree = "<group>";
-		};
-		7DAA57661CD0097000C0DAAC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7DAA57671CD0097000C0DAAC /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7DAA577F1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				7DAA57801CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m */,
-				7DAA57821CD0097000C0DAAC /* Info.plist */,
-			);
-			path = SinTraficoRouteAPIDemoTests;
-			sourceTree = "<group>";
-		};
-		7DAA578A1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7DAA578B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m */,
-				7DAA578D1CD0097000C0DAAC /* Info.plist */,
-			);
-			path = SinTraficoRouteAPIDemoUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DAA57901CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemo" */;
-			buildPhases = (
-				7DAA575F1CD0097000C0DAAC /* Sources */,
-				7DAA57601CD0097000C0DAAC /* Frameworks */,
-				7DAA57611CD0097000C0DAAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SinTraficoRouteAPIDemo;
-			productName = SinTraficoRouteAPIDemo;
-			productReference = 7DAA57631CD0097000C0DAAC /* SinTraficoRouteAPIDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		7DAA577B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DAA57931CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoTests" */;
-			buildPhases = (
-				7DAA57781CD0097000C0DAAC /* Sources */,
-				7DAA57791CD0097000C0DAAC /* Frameworks */,
-				7DAA577A1CD0097000C0DAAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DAA577E1CD0097000C0DAAC /* PBXTargetDependency */,
-			);
-			name = SinTraficoRouteAPIDemoTests;
-			productName = SinTraficoRouteAPIDemoTests;
-			productReference = 7DAA577C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7DAA57861CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7DAA57961CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoUITests" */;
-			buildPhases = (
-				7DAA57831CD0097000C0DAAC /* Sources */,
-				7DAA57841CD0097000C0DAAC /* Frameworks */,
-				7DAA57851CD0097000C0DAAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7DAA57891CD0097000C0DAAC /* PBXTargetDependency */,
-			);
-			name = SinTraficoRouteAPIDemoUITests;
-			productName = SinTraficoRouteAPIDemoUITests;
-			productReference = 7DAA57871CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		7DAA575B1CD0097000C0DAAC /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = SinTrafico;
-				TargetAttributes = {
-					7DAA57621CD0097000C0DAAC = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					7DAA577B1CD0097000C0DAAC = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 7DAA57621CD0097000C0DAAC;
-					};
-					7DAA57861CD0097000C0DAAC = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 7DAA57621CD0097000C0DAAC;
-					};
-				};
-			};
-			buildConfigurationList = 7DAA575E1CD0097000C0DAAC /* Build configuration list for PBXProject "SinTraficoRouteAPIDemo" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 7DAA575A1CD0097000C0DAAC;
-			productRefGroup = 7DAA57641CD0097000C0DAAC /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */,
-				7DAA577B1CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests */,
-				7DAA57861CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		7DAA57611CD0097000C0DAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DAA57761CD0097000C0DAAC /* LaunchScreen.storyboard in Resources */,
-				7DAA57731CD0097000C0DAAC /* Assets.xcassets in Resources */,
-				7DAA57711CD0097000C0DAAC /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA577A1CD0097000C0DAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA57851CD0097000C0DAAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		7DAA575F1CD0097000C0DAAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */,
-				7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */,
-				7DAA57A11CD0168200C0DAAC /* STLocation.m in Sources */,
-				7DAA57681CD0097000C0DAAC /* main.m in Sources */,
-				7DAA579D1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
-				7DAA57A71CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA57781CD0097000C0DAAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */,
-				7DAA57A81CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
-				7DAA57A21CD0168200C0DAAC /* STLocation.m in Sources */,
-				7DAA579E1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DAA57831CD0097000C0DAAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DAA578C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m in Sources */,
-				7DAA57A91CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
-				7DAA57A31CD0168200C0DAAC /* STLocation.m in Sources */,
-				7DAA579F1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7DAA577E1CD0097000C0DAAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */;
-			targetProxy = 7DAA577D1CD0097000C0DAAC /* PBXContainerItemProxy */;
-		};
-		7DAA57891CD0097000C0DAAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7DAA57621CD0097000C0DAAC /* SinTraficoRouteAPIDemo */;
-			targetProxy = 7DAA57881CD0097000C0DAAC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7DAA576F1CD0097000C0DAAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DAA57701CD0097000C0DAAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DAA57751CD0097000C0DAAC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		7DAA578E1CD0097000C0DAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7DAA578F1CD0097000C0DAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		7DAA57911CD0097000C0DAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SinTraficoRouteAPIDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		7DAA57921CD0097000C0DAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SinTraficoRouteAPIDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		7DAA57941CD0097000C0DAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SinTraficoRouteAPIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo";
-			};
-			name = Debug;
-		};
-		7DAA57951CD0097000C0DAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SinTraficoRouteAPIDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo";
-			};
-			name = Release;
-		};
-		7DAA57971CD0097000C0DAAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SinTraficoRouteAPIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SinTraficoRouteAPIDemo;
-			};
-			name = Debug;
-		};
-		7DAA57981CD0097000C0DAAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SinTraficoRouteAPIDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = st.SinTraficoRouteAPIDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SinTraficoRouteAPIDemo;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		7DAA575E1CD0097000C0DAAC /* Build configuration list for PBXProject "SinTraficoRouteAPIDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DAA578E1CD0097000C0DAAC /* Debug */,
-				7DAA578F1CD0097000C0DAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7DAA57901CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DAA57911CD0097000C0DAAC /* Debug */,
-				7DAA57921CD0097000C0DAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		7DAA57931CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DAA57941CD0097000C0DAAC /* Debug */,
-				7DAA57951CD0097000C0DAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		7DAA57961CD0097000C0DAAC /* Build configuration list for PBXNativeTarget "SinTraficoRouteAPIDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DAA57971CD0097000C0DAAC /* Debug */,
-				7DAA57981CD0097000C0DAAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 7DAA575B1CD0097000C0DAAC /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>14184E115AD0AD701BB0CFD5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9B1881297343D270A1E7448C</string>
+				<string>32711DB3C7FB2E15AF8EF34B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>176312A874DF86D8F3B7B93D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5793DA658733CE71123A4DA3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>32711DB3C7FB2E15AF8EF34B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>../Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5793DA658733CE71123A4DA3</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7DAA575A1CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57651CD0097000C0DAAC</string>
+				<string>7DAA577F1CD0097000C0DAAC</string>
+				<string>7DAA578A1CD0097000C0DAAC</string>
+				<string>7DAA57641CD0097000C0DAAC</string>
+				<string>7DAA57991CD00C2D00C0DAAC</string>
+				<string>14184E115AD0AD701BB0CFD5</string>
+				<string>84D57F1D0382AAECAD92E07A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA575B1CD0097000C0DAAC</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>SinTrafico</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>7DAA57621CD0097000C0DAAC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>7DAA577B1CD0097000C0DAAC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>7DAA57621CD0097000C0DAAC</string>
+					</dict>
+					<key>7DAA57861CD0097000C0DAAC</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>7DAA57621CD0097000C0DAAC</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>7DAA575E1CD0097000C0DAAC</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DAA575A1CD0097000C0DAAC</string>
+			<key>productRefGroup</key>
+			<string>7DAA57641CD0097000C0DAAC</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>7DAA57621CD0097000C0DAAC</string>
+				<string>7DAA577B1CD0097000C0DAAC</string>
+				<string>7DAA57861CD0097000C0DAAC</string>
+			</array>
+		</dict>
+		<key>7DAA575E1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7DAA578E1CD0097000C0DAAC</string>
+				<string>7DAA578F1CD0097000C0DAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7DAA575F1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7DAA576E1CD0097000C0DAAC</string>
+				<string>7DAA576B1CD0097000C0DAAC</string>
+				<string>7DAA57A11CD0168200C0DAAC</string>
+				<string>7DAA57681CD0097000C0DAAC</string>
+				<string>7DAA579D1CD00F1C00C0DAAC</string>
+				<string>7DAA57A71CD10C1F00C0DAAC</string>
+				<string>7DAA57AC1CD1243C00C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57601CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7DAA579A1CD00C2D00C0DAAC</string>
+				<string>176312A874DF86D8F3B7B93D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57611CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7DAA57761CD0097000C0DAAC</string>
+				<string>7DAA57731CD0097000C0DAAC</string>
+				<string>7DAA57711CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57621CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>7DAA57901CD0097000C0DAAC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>D2ABBA19BE751F6C4F301A50</string>
+				<string>7DAA575F1CD0097000C0DAAC</string>
+				<string>7DAA57601CD0097000C0DAAC</string>
+				<string>7DAA57611CD0097000C0DAAC</string>
+				<string>FE6C5CA2D3415E12C53C07C4</string>
+				<string>EA351B3331F40A9ED419F0FA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SinTraficoRouteAPIDemo</string>
+			<key>productName</key>
+			<string>SinTraficoRouteAPIDemo</string>
+			<key>productReference</key>
+			<string>7DAA57631CD0097000C0DAAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>7DAA57631CD0097000C0DAAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemo.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7DAA57641CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57631CD0097000C0DAAC</string>
+				<string>7DAA577C1CD0097000C0DAAC</string>
+				<string>7DAA57871CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57651CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57691CD0097000C0DAAC</string>
+				<string>7DAA576A1CD0097000C0DAAC</string>
+				<string>7DAA576C1CD0097000C0DAAC</string>
+				<string>7DAA576D1CD0097000C0DAAC</string>
+				<string>7DAA576F1CD0097000C0DAAC</string>
+				<string>7DAA579B1CD00F1C00C0DAAC</string>
+				<string>7DAA579C1CD00F1C00C0DAAC</string>
+				<string>7DAA57A51CD10C1F00C0DAAC</string>
+				<string>7DAA57A61CD10C1F00C0DAAC</string>
+				<string>7DAA57AA1CD1243C00C0DAAC</string>
+				<string>7DAA57AB1CD1243C00C0DAAC</string>
+				<string>7DAA57A41CD016A000C0DAAC</string>
+				<string>7DAA57A01CD0168200C0DAAC</string>
+				<string>7DAA57721CD0097000C0DAAC</string>
+				<string>7DAA57741CD0097000C0DAAC</string>
+				<string>7DAA57771CD0097000C0DAAC</string>
+				<string>7DAA57661CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemo</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57661CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57671CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57671CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57681CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57671CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57691CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA576A1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA576B1CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA576A1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA576C1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA576D1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA576E1CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA576D1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA576F1CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57701CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57701CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57711CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA576F1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57721CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57731CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57721CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57741CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57751CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57751CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57761CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57741CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57771CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57781CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7DAA57811CD0097000C0DAAC</string>
+				<string>7DAA57A81CD10C1F00C0DAAC</string>
+				<string>7DAA57A21CD0168200C0DAAC</string>
+				<string>7DAA57AD1CD1243C00C0DAAC</string>
+				<string>7DAA579E1CD00F1C00C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57791CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA577A1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA577B1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>7DAA57931CD0097000C0DAAC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7DAA57781CD0097000C0DAAC</string>
+				<string>7DAA57791CD0097000C0DAAC</string>
+				<string>7DAA577A1CD0097000C0DAAC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>7DAA577E1CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SinTraficoRouteAPIDemoTests</string>
+			<key>productName</key>
+			<string>SinTraficoRouteAPIDemoTests</string>
+			<key>productReference</key>
+			<string>7DAA577C1CD0097000C0DAAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>7DAA577C1CD0097000C0DAAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7DAA577D1CD0097000C0DAAC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>7DAA575B1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7DAA57621CD0097000C0DAAC</string>
+			<key>remoteInfo</key>
+			<string>SinTraficoRouteAPIDemo</string>
+		</dict>
+		<key>7DAA577E1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>7DAA57621CD0097000C0DAAC</string>
+			<key>targetProxy</key>
+			<string>7DAA577D1CD0097000C0DAAC</string>
+		</dict>
+		<key>7DAA577F1CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA57801CD0097000C0DAAC</string>
+				<string>7DAA57821CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57801CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57811CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57801CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57821CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57831CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7DAA578C1CD0097000C0DAAC</string>
+				<string>7DAA57A91CD10C1F00C0DAAC</string>
+				<string>7DAA57A31CD0168200C0DAAC</string>
+				<string>7DAA57AE1CD1243C00C0DAAC</string>
+				<string>7DAA579F1CD00F1C00C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57841CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57851CD0097000C0DAAC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7DAA57861CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>7DAA57961CD0097000C0DAAC</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7DAA57831CD0097000C0DAAC</string>
+				<string>7DAA57841CD0097000C0DAAC</string>
+				<string>7DAA57851CD0097000C0DAAC</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>7DAA57891CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SinTraficoRouteAPIDemoUITests</string>
+			<key>productName</key>
+			<string>SinTraficoRouteAPIDemoUITests</string>
+			<key>productReference</key>
+			<string>7DAA57871CD0097000C0DAAC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>7DAA57871CD0097000C0DAAC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7DAA57881CD0097000C0DAAC</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>7DAA575B1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>7DAA57621CD0097000C0DAAC</string>
+			<key>remoteInfo</key>
+			<string>SinTraficoRouteAPIDemo</string>
+		</dict>
+		<key>7DAA57891CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>7DAA57621CD0097000C0DAAC</string>
+			<key>targetProxy</key>
+			<string>7DAA57881CD0097000C0DAAC</string>
+		</dict>
+		<key>7DAA578A1CD0097000C0DAAC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DAA578B1CD0097000C0DAAC</string>
+				<string>7DAA578D1CD0097000C0DAAC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA578B1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SinTraficoRouteAPIDemoUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA578C1CD0097000C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA578B1CD0097000C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA578D1CD0097000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA578E1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7DAA578F1CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DAA57901CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7DAA57911CD0097000C0DAAC</string>
+				<string>7DAA57921CD0097000C0DAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7DAA57911CD0097000C0DAAC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9B1881297343D270A1E7448C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemo/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemo</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7DAA57921CD0097000C0DAAC</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>32711DB3C7FB2E15AF8EF34B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemo/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemo</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DAA57931CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7DAA57941CD0097000C0DAAC</string>
+				<string>7DAA57951CD0097000C0DAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7DAA57941CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemoTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemoTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7DAA57951CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemoTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemoTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SinTraficoRouteAPIDemo.app/SinTraficoRouteAPIDemo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DAA57961CD0097000C0DAAC</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7DAA57971CD0097000C0DAAC</string>
+				<string>7DAA57981CD0097000C0DAAC</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7DAA57971CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemoUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemoUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SinTraficoRouteAPIDemo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7DAA57981CD0097000C0DAAC</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>SinTraficoRouteAPIDemoUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>st.SinTraficoRouteAPIDemoUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SinTraficoRouteAPIDemo</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DAA57991CD00C2D00C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MapKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/MapKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7DAA579A1CD00C2D00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57991CD00C2D00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA579B1CD00F1C00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>MapViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA579C1CD00F1C00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>MapViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA579D1CD00F1C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA579C1CD00F1C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA579E1CD00F1C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA579C1CD00F1C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA579F1CD00F1C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA579C1CD00F1C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A01CD0168200C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>STLocation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57A11CD0168200C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A01CD0168200C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A21CD0168200C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A01CD0168200C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A31CD0168200C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A01CD0168200C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A41CD016A000C0DAAC</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>STLocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57A51CD10C1F00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>OptionsViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57A61CD10C1F00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>OptionsViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57A71CD10C1F00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A61CD10C1F00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A81CD10C1F00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A61CD10C1F00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57A91CD10C1F00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57A61CD10C1F00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57AA1CD1243C00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>StructOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57AB1CD1243C00C0DAAC</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>StructOptions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DAA57AC1CD1243C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57AB1CD1243C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57AD1CD1243C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57AB1CD1243C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7DAA57AE1CD1243C00C0DAAC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7DAA57AB1CD1243C00C0DAAC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>84D57F1D0382AAECAD92E07A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5793DA658733CE71123A4DA3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B1881297343D270A1E7448C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>../Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D2ABBA19BE751F6C4F301A50</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EA351B3331F40A9ED419F0FA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FE6C5CA2D3415E12C53C07C4</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>7DAA575B1CD0097000C0DAAC</string>
+</dict>
+</plist>

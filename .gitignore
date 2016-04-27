@@ -30,3 +30,8 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+SinTraficoRouteAPIDemo.xcworkspace/
+Pods/
+Podfile.lock
+.DS_Store
