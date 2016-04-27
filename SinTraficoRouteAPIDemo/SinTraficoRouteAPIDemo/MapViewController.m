@@ -32,7 +32,7 @@
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = (startCoordinate.latitude + endCoordinate.latitude) / 2;
     zoomLocation.longitude = (startCoordinate.longitude + endCoordinate.longitude) / 2;
-    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 8000, 8000);
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 16000, 16000);
     [self.mapView setRegion:viewRegion animated:YES];
 }
 
@@ -50,5 +50,9 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)btnRoute:(id)sender {
+    NSLog(@"clicked route");
+}
 
 @end

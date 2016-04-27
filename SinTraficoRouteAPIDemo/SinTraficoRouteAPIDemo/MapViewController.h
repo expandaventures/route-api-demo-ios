@@ -12,5 +12,6 @@
 @interface MapViewController : ViewController
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+- (IBAction)btnRoute:(id)sender;
 
 @end
