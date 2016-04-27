@@ -11,7 +11,8 @@
 @implementation STRouteOptions
 
 - (NSDictionary*) parameters {
-    return @{@"start": [NSString stringWithFormat:@"%f,%f", self.start.latitude, self.start.longitude],
+    return @{@"key": @"testKeyHash",
+             @"start": [NSString stringWithFormat:@"%f,%f", self.start.latitude, self.start.longitude],
              @"end": [NSString stringWithFormat:@"%f,%f", self.end.latitude, self.end.longitude],
              @"transport": [self transportTypeString],
              @"poi_in": self.poiIn >= 0 ? [NSNumber numberWithInt:self.poiIn] : [NSNull null],
