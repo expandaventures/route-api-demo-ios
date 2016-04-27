@@ -6,9 +6,9 @@
 //  Copyright © 2016 SinTrafico. All rights reserved.
 //
 
-#import "StructOptions.h"
+#import "STRouteOptions.h"
 
-@implementation StructOptions
+@implementation STRouteOptions
 
 - (NSDictionary*) parameters {
     return @{@"test": @"test"};

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
-@interface StructOptions : NSObject
+@interface STRouteOptions : NSObject
 
 @property (assign) CLLocationCoordinate2D start;
 @property (assign) CLLocationCoordinate2D end;

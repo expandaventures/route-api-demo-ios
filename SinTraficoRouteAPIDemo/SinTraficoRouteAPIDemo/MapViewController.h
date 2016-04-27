@@ -8,10 +8,14 @@
 
 #import "ViewController.h"
 #import <MapKit/MapKit.h>
+#import "STRouteOptions.h"
 
 @interface MapViewController : ViewController
 
+@property (retain, nonatomic) STRouteOptions* RouteOptions;
+
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
+
 - (IBAction)btnRoute:(id)sender;
 
 @end
