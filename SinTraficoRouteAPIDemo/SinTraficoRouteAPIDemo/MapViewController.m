@@ -27,7 +27,7 @@
     CLLocationCoordinate2D endCoordinate;
     endCoordinate.latitude = 19.4136;
     endCoordinate.longitude= -99.1466;
-    STLocation *endLocation = [[STLocation alloc] initWithTitle:@"End" andCoordinate:endCoordinate];
+    STLocation *endLocation = [[STLocation alloc] initWithTitle:@"Fin" andCoordinate:endCoordinate];
     [self.mapView addAnnotation:endLocation];
     // Center map
     CLLocationCoordinate2D zoomLocation;
