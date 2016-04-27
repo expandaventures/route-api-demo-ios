@@ -11,7 +11,28 @@
 @implementation STRouteOptions
 
 - (NSDictionary*) parameters {
-    return @{@"test": @"test"};
+    return @{@"start": [NSString stringWithFormat:@"%f,%f", self.start.latitude, self.start.longitude],
+             @"end": [NSString stringWithFormat:@"%f,%f", self.end.latitude, self.end.longitude],
+             @"transport": [self transportTypeString],
+             @"poi_in": [NSNumber numberWithInt:self.poiIn],
+             @"vehicle_type": [NSNumber numberWithInt:self.vehicleType]};
+}
+
+- (NSString*) transportTypeString {
+    return [STRouteOptions transportTypeStringFromInteger:self.transportType];
+}
+
++ (NSString*) transportTypeStringFromInteger: (NSInteger) transportType {
+    if (transportType == 0) {
+        return @"car";
+    }
+    else if (transportType == 1) {
+        return @"bicycle";
+    }
+    else if (transportType == 2) {
+        return @"pedestrian";
+    }
+    return nil;
 }
 
 @end

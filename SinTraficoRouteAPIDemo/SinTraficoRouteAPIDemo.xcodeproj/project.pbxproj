@@ -29,6 +29,8 @@
 		7DAA57AC1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
 		7DAA57AD1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
 		7DAA57AE1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
+		7DAA57B91CD1351200C0DAAC /* STRouteNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57B81CD1351200C0DAAC /* STRouteNetworking.m */; };
+		7DAA57BA1CD1351200C0DAAC /* STRouteNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57B81CD1351200C0DAAC /* STRouteNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		7DAA57AA1CD1243C00C0DAAC /* STRouteOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRouteOptions.h; sourceTree = "<group>"; };
 		7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRouteOptions.m; sourceTree = "<group>"; };
+		7DAA57B71CD1351200C0DAAC /* STRouteNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRouteNetworking.h; sourceTree = "<group>"; };
+		7DAA57B81CD1351200C0DAAC /* STRouteNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRouteNetworking.m; sourceTree = "<group>"; };
 		9B1881297343D270A1E7448C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +156,8 @@
 				7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */,
 				7DAA57AA1CD1243C00C0DAAC /* STRouteOptions.h */,
 				7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */,
+				7DAA57B71CD1351200C0DAAC /* STRouteNetworking.h */,
+				7DAA57B81CD1351200C0DAAC /* STRouteNetworking.m */,
 				7DAA57A41CD016A000C0DAAC /* STLocation.h */,
 				7DAA57A01CD0168200C0DAAC /* STLocation.m */,
 				7DAA57721CD0097000C0DAAC /* Assets.xcassets */,
@@ -381,6 +387,7 @@
 				7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */,
 				7DAA57A11CD0168200C0DAAC /* STLocation.m in Sources */,
 				7DAA57681CD0097000C0DAAC /* main.m in Sources */,
+				7DAA57B91CD1351200C0DAAC /* STRouteNetworking.m in Sources */,
 				7DAA579D1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
 				7DAA57A71CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
 				7DAA57AC1CD1243C00C0DAAC /* STRouteOptions.m in Sources */,
@@ -391,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAA57BA1CD1351200C0DAAC /* STRouteNetworking.m in Sources */,
 				7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */,
 				7DAA57A81CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
 				7DAA57A21CD0168200C0DAAC /* STLocation.m in Sources */,

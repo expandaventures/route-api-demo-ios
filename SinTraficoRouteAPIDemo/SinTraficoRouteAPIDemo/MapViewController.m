@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import "OptionsViewController.h"
+#import "STRouteNetworking.h"
 #import "STLocation.h"
 
 @interface MapViewController ()
@@ -46,7 +47,7 @@
 }
 
 - (IBAction)btnRoute:(id)sender {
-    NSLog(@"clicked route");
+    [STRouteNetworking getRouteForOptions:self.routeOptions];
 }
 
 #pragma mark - Navigation

@@ -15,21 +15,22 @@
     self.vehicleType.dataSource = self;
     self.transportType.delegate = self;
     self.transportType.dataSource = self;
+    self.poiIn.delegate = self;
+    self.poiIn.dataSource = self;
     
     self.vehicleTypeOptions = @[@"Moto", @"Carro", @"Eje Ligero", @"Camión 2 Ejes", @"Camión 3 Ejes", @"Camión 4 Ejes",
                                 @"Tráiler 2 Ejes", @"Tráiler 3 Ejes", @"Tráiler 4 Ejes", @"Tráiler 5 Ejes",
                                 @"Tráiler 6 Ejes", @"Tráiler 7 Ejes", @"Tráiler 8 Ejes", @"Tráiler 9 Ejes",
                                 @"Eje Pesado"];
     self.transportTypeOptions = @[@"Carro", @"Bicicleta", @"Peatón"];
+    self.poiInOptions = @[@"Estacionamientos", @"Casetas", @"Gasolineras"];
 }
 
 - (IBAction)btnOK:(id)sender {
     if (self.delegate != nil) {
         self.routeOptions.transportType = [self.transportType selectedRowInComponent:0];
         self.routeOptions.vehicleType = [self.vehicleType selectedRowInComponent:0];
-        self.routeOptions.showParking = [self.switchParking isOn];
-        self.routeOptions.showTolls = [self.switchTolls isOn];
-        self.routeOptions.showGas = [self.switchGas isOn];
+        self.routeOptions.poiIn = [self.poiIn selectedRowInComponent:0];
         [self.delegate receiveRouteOptions:self.routeOptions];
     }
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
@@ -47,6 +48,9 @@
     else if (pickerView == self.transportType) {
         return self.transportTypeOptions.count;
     }
+    else if (pickerView == self.poiIn) {
+        return self.poiInOptions.count;
+    }
     return 0;
 }
 
@@ -57,6 +61,9 @@
     }
     else if (pickerView == self.transportType) {
         return self.transportTypeOptions[row];
+    }
+    else if (pickerView == self.poiIn) {
+        return self.poiInOptions[row];
     }
     return nil;
 }

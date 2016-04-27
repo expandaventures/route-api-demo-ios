@@ -18,13 +18,11 @@
 
 @property (strong) NSArray *transportTypeOptions;
 @property (strong) NSArray *vehicleTypeOptions;
+@property (strong) NSArray *poiInOptions;
 
 @property (weak, nonatomic) IBOutlet UIPickerView *transportType;
 @property (weak, nonatomic) IBOutlet UIPickerView *vehicleType;
-
-@property (weak, nonatomic) IBOutlet UISwitch *switchParking;
-@property (weak, nonatomic) IBOutlet UISwitch *switchTolls;
-@property (weak, nonatomic) IBOutlet UISwitch *switchGas;
+@property (weak, nonatomic) IBOutlet UIPickerView *poiIn;
 
 @property (retain, nonatomic) STRouteOptions* routeOptions;
 @property (assign, nonatomic) id<OptionsDelegate> delegate;
