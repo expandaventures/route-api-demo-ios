@@ -2,7 +2,7 @@
 //  OptionsViewController.h
 //  SinTraficoRouteAPIDemo
 //
-//  Created by SinTrafico on 4/27/16.
+//  Created by Daniel Garcia on 4/27/16.
 //  Copyright © 2016 SinTrafico. All rights reserved.
 //
 
