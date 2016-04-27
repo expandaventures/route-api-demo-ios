@@ -24,6 +24,14 @@
 }
 
 - (IBAction)btnOK:(id)sender {
+    if (self.delegate != nil) {
+        self.routeOptions.transportType = [self.transportType selectedRowInComponent:0];
+        self.routeOptions.vehicleType = [self.vehicleType selectedRowInComponent:0];
+        self.routeOptions.showParking = [self.switchParking isOn];
+        self.routeOptions.showTolls = [self.switchTolls isOn];
+        self.routeOptions.showGas = [self.switchGas isOn];
+        [self.delegate receiveRouteOptions:self.routeOptions];
+    }
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
 }
 

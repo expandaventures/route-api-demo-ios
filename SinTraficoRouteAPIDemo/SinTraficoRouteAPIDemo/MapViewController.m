@@ -7,6 +7,7 @@
 //
 
 #import "MapViewController.h"
+#import "OptionsViewController.h"
 #import "STLocation.h"
 
 @interface MapViewController ()
@@ -34,25 +35,29 @@
     zoomLocation.longitude = (startCoordinate.longitude + endCoordinate.longitude) / 2;
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 16000, 16000);
     [self.mapView setRegion:viewRegion animated:YES];
+    // Configure options
+    self.routeOptions = [[STRouteOptions alloc] init];
+    self.routeOptions.start = startCoordinate;
+    self.routeOptions.end = endCoordinate;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void) receiveRouteOptions:(STRouteOptions *)options {
+    self.routeOptions = options;
 }
 
-/*
+- (IBAction)btnRoute:(id)sender {
+    NSLog(@"clicked route");
+}
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
-}
-*/
-
-- (IBAction)btnRoute:(id)sender {
-    NSLog(@"clicked route");
+    OptionsViewController* dest = segue.destinationViewController;
+    dest.routeOptions = self.routeOptions;
+    dest.delegate = self;
 }
 
 @end

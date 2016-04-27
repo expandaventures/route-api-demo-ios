@@ -6,13 +6,13 @@
 //  Copyright © 2016 SinTrafico. All rights reserved.
 //
 
-#import "ViewController.h"
 #import <MapKit/MapKit.h>
+#import "OptionsViewController.h"
 #import "STRouteOptions.h"
 
-@interface MapViewController : ViewController
+@interface MapViewController : UIViewController <OptionsDelegate>
 
-@property (retain, nonatomic) STRouteOptions* RouteOptions;
+@property (retain, nonatomic) STRouteOptions* routeOptions;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 

@@ -13,8 +13,8 @@
 
 @property (assign) CLLocationCoordinate2D start;
 @property (assign) CLLocationCoordinate2D end;
-@property (retain, nonatomic) NSNumber* transportType;
-@property (retain, nonatomic) NSNumber* vehicleType;
+@property (assign) NSInteger transportType;
+@property (assign) NSInteger vehicleType;
 @property (assign) bool showParking;
 @property (assign) bool showTolls;
 @property (assign) bool showGas;

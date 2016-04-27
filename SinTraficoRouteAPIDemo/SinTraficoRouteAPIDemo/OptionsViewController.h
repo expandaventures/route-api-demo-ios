@@ -6,9 +6,15 @@
 //  Copyright © 2016 SinTrafico. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "STRouteOptions.h"
 
-@interface OptionsViewController : ViewController <UIPickerViewDelegate, UIPickerViewDataSource>
+@protocol OptionsDelegate <NSObject>
+
+-(void) receiveRouteOptions:(STRouteOptions *)options;
+
+@end
+
+@interface OptionsViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>
 
 @property (strong) NSArray *transportTypeOptions;
 @property (strong) NSArray *vehicleTypeOptions;
@@ -19,6 +25,9 @@
 @property (weak, nonatomic) IBOutlet UISwitch *switchParking;
 @property (weak, nonatomic) IBOutlet UISwitch *switchTolls;
 @property (weak, nonatomic) IBOutlet UISwitch *switchGas;
+
+@property (retain, nonatomic) STRouteOptions* routeOptions;
+@property (assign, nonatomic) id<OptionsDelegate> delegate;
 
 - (IBAction)btnOK:(id)sender;
 
