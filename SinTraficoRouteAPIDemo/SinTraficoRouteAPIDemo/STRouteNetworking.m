@@ -12,7 +12,7 @@
 @implementation STRouteNetworking
 
 + (void)getRouteForOptions: (STRouteOptions*) options {
-    NSString* routeURL = @"http://api.sintrafico.com/osrm";
+    NSString* routeURL = @"http://api.sintrafico.com/route";
     NSDictionary* params = [options parameters];
     
     NSURLRequest* request = [[AFHTTPRequestSerializer serializer]
@@ -28,8 +28,8 @@
         if (error) {
             NSLog(@"Error: %@", error);
         } else {
-            NSLog(@"test %@", responseObject[@"routes"][0]);
-            NSLog(@"test %@", responseObject[@"routes"][0][@"geometry"]);
+            NSDictionary* geom = responseObject[@"routes"][0][@"geometry"];
+            NSLog(@"%@", [geom objectForKey:@"type"]);
         }
     }];
     [dataTask resume];
