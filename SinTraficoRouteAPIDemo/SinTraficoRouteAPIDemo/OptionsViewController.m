@@ -23,14 +23,14 @@
                                 @"Tráiler 6 Ejes", @"Tráiler 7 Ejes", @"Tráiler 8 Ejes", @"Tráiler 9 Ejes",
                                 @"Eje Pesado"];
     self.transportTypeOptions = @[@"Carro", @"Bicicleta", @"Peatón"];
-    self.poiInOptions = @[@"Estacionamientos", @"Casetas", @"Gasolineras"];
+    self.poiInOptions = @[@"Ninguno", @"Estacionamientos", @"Casetas", @"Gasolineras"];
 }
 
 - (IBAction)btnOK:(id)sender {
     if (self.delegate != nil) {
         self.routeOptions.transportType = [self.transportType selectedRowInComponent:0];
         self.routeOptions.vehicleType = [self.vehicleType selectedRowInComponent:0];
-        self.routeOptions.poiIn = [self.poiIn selectedRowInComponent:0];
+        self.routeOptions.poiIn = [self.poiIn selectedRowInComponent:0] - 1; // to make @"Ninguno" == -1 and so on
         [self.delegate receiveRouteOptions:self.routeOptions];
     }
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];

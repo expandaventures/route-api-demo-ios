@@ -40,6 +40,9 @@
     self.routeOptions = [[STRouteOptions alloc] init];
     self.routeOptions.start = startCoordinate;
     self.routeOptions.end = endCoordinate;
+    self.routeOptions.transportType = 0; // car
+    self.routeOptions.vehicleType = 0; // motorcycle
+    self.routeOptions.poiIn = -1; // none
 }
 
 -(void) receiveRouteOptions:(STRouteOptions *)options {

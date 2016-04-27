@@ -14,7 +14,7 @@
     return @{@"start": [NSString stringWithFormat:@"%f,%f", self.start.latitude, self.start.longitude],
              @"end": [NSString stringWithFormat:@"%f,%f", self.end.latitude, self.end.longitude],
              @"transport": [self transportTypeString],
-             @"poi_in": [NSNumber numberWithInt:self.poiIn],
+             @"poi_in": self.poiIn >= 0 ? [NSNumber numberWithInt:self.poiIn] : [NSNull null],
              @"vehicle_type": [NSNumber numberWithInt:self.vehicleType]};
 }
 
