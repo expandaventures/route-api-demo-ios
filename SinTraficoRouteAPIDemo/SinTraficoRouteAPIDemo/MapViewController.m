@@ -18,6 +18,7 @@
 @implementation MapViewController
 
 - (void)viewWillAppear:(BOOL)animated {
+    self.mapView.delegate = self;
     // Start point
     CLLocationCoordinate2D startCoordinate;
     startCoordinate.latitude = 19.43436;
@@ -50,12 +51,26 @@
     [router getRouteForOptions:self.routeOptions];
 }
 
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
+    if ([overlay isKindOfClass:[MKPolyline class]]) {
+        MKPolyline *route = overlay;
+        MKPolylineRenderer *routeRenderer = [[MKPolylineRenderer alloc] initWithPolyline:route];
+        routeRenderer.strokeColor = [UIColor blueColor];
+        routeRenderer.lineWidth = 10;
+        return routeRenderer;
+    }
+    else {
+        return nil;
+    }
+}
+
 -(void) receiveRouteOptions:(STRouteOptions *)options {
     self.routeOptions = options;
 }
 
 -(void) receiveRoutePolyline:(MKPolyline *)routeLine {
     self.routeLine = routeLine;
+    [self.mapView addOverlay:self.routeLine level:MKOverlayLevelAboveLabels];
 }
 
 #pragma mark - Navigation
