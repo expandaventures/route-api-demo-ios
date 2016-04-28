@@ -9,10 +9,12 @@
 #import <MapKit/MapKit.h>
 #import "OptionsViewController.h"
 #import "STRouteOptions.h"
+#import "STRouteNetworking.h"
 
-@interface MapViewController : UIViewController <OptionsDelegate>
+@interface MapViewController : UIViewController <OptionsDelegate, RouteNetworkDelegate>
 
 @property (retain, nonatomic) STRouteOptions* routeOptions;
+@property (retain, nonatomic) MKPolyline* routeLine;
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 

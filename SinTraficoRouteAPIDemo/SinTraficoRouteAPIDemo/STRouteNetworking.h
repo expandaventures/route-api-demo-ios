@@ -9,8 +9,19 @@
 #import <Foundation/Foundation.h>
 #import "STRouteOptions.h"
 
+@protocol RouteNetworkDelegate <NSObject>
+
+-(void) receiveRoutePolyline:(MKPolyline *)routeLine;
+
+@end
+
 @interface STRouteNetworking : NSObject
 
-+ (void)getRouteForOptions: (STRouteOptions*) options;
+- (instancetype) __unavailable init;
+- (id) initWithDelegate: (id<RouteNetworkDelegate>) newDelegate;
+
+- (void)getRouteForOptions: (STRouteOptions*) options;
+
+@property (assign, nonatomic) id<RouteNetworkDelegate> delegate;
 
 @end

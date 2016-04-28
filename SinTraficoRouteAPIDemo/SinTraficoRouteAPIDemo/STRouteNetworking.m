@@ -11,7 +11,14 @@
 
 @implementation STRouteNetworking
 
-+ (void)getRouteForOptions: (STRouteOptions*) options {
+- (id) initWithDelegate: (id<RouteNetworkDelegate>) newDelegate {
+    if ( self = [super init] ) {
+        self.delegate = newDelegate;
+    }
+    return self;
+}
+
+- (void)getRouteForOptions: (STRouteOptions*) options {
     NSString* routeURL = @"http://api.sintrafico.com/route";
     NSDictionary* params = [options parameters];
     
@@ -31,16 +38,17 @@
             NSDictionary* geom = responseObject[@"routes"][0][@"geometry"];
             CLLocationCoordinate2D coordinates[[[geom objectForKey:@"coordinates"] count]];
             int i = 0;
-            for (NSArray* test in [geom objectForKey:@"coordinates"]) {
+            for (NSArray* coordsArray in [geom objectForKey:@"coordinates"]) {
+                // Each coordsArray is an array with two elements: lat and lon.
                 CLLocationCoordinate2D newCoordinates;
-                newCoordinates.latitude = [[test objectAtIndex:0] floatValue];
-                newCoordinates.longitude= [[test objectAtIndex:1] floatValue];
+                newCoordinates.latitude = [[coordsArray objectAtIndex:0] floatValue];
+                newCoordinates.longitude= [[coordsArray objectAtIndex:1] floatValue];
                 coordinates[i] = newCoordinates;
                 i++;
             }
             MKPolyline* routeLine = [MKPolyline polylineWithCoordinates:coordinates
                                                                   count:[[geom objectForKey:@"coordinates"] count]];
-            NSLog(@"%@", routeLine);
+            [self.delegate receiveRoutePolyline:routeLine];
         }
     }];
     [dataTask resume];

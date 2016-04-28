@@ -45,12 +45,17 @@
     self.routeOptions.poiIn = -1; // none
 }
 
+- (IBAction)btnRoute:(id)sender {
+    STRouteNetworking* router = [[STRouteNetworking alloc] initWithDelegate:self];
+    [router getRouteForOptions:self.routeOptions];
+}
+
 -(void) receiveRouteOptions:(STRouteOptions *)options {
     self.routeOptions = options;
 }
 
-- (IBAction)btnRoute:(id)sender {
-    [STRouteNetworking getRouteForOptions:self.routeOptions];
+-(void) receiveRoutePolyline:(MKPolyline *)routeLine {
+    self.routeLine = routeLine;
 }
 
 #pragma mark - Navigation
