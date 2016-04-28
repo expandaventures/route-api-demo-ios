@@ -39,10 +39,10 @@
             CLLocationCoordinate2D coordinates[[[geom objectForKey:@"coordinates"] count]];
             int i = 0;
             for (NSArray* coordsArray in [geom objectForKey:@"coordinates"]) {
-                // Each coordsArray is an array with two elements: lat and lon.
+                // Each coordsArray is an array with two elements: lon and lat.
                 CLLocationCoordinate2D newCoordinates;
-                newCoordinates.latitude = [[coordsArray objectAtIndex:0] floatValue];
-                newCoordinates.longitude= [[coordsArray objectAtIndex:1] floatValue];
+                newCoordinates.longitude= [[coordsArray objectAtIndex:0] floatValue];
+                newCoordinates.latitude = [[coordsArray objectAtIndex:1] floatValue];
                 coordinates[i] = newCoordinates;
                 i++;
             }
