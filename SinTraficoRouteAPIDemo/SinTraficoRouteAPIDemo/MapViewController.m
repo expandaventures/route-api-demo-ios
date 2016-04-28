@@ -7,7 +7,6 @@
 //
 
 #import "MapViewController.h"
-#import "OptionsViewController.h"
 #import "STRouteNetworking.h"
 #import "STLocation.h"
 
@@ -41,9 +40,6 @@
     self.routeOptions = [[STRouteOptions alloc] init];
     self.routeOptions.start = startCoordinate;
     self.routeOptions.end = endCoordinate;
-    self.routeOptions.transportType = 0; // car
-    self.routeOptions.vehicleType = 0; // motorcycle
-    self.routeOptions.poiIn = -1; // none
 }
 
 - (IBAction)btnRoute:(id)sender {
@@ -71,17 +67,6 @@
 -(void) receiveRoutePolyline:(MKPolyline *)routeLine {
     self.routeLine = routeLine;
     [self.mapView addOverlay:self.routeLine level:MKOverlayLevelAboveLabels];
-}
-
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    OptionsViewController* dest = segue.destinationViewController;
-    dest.routeOptions = self.routeOptions;
-    dest.delegate = self;
 }
 
 @end

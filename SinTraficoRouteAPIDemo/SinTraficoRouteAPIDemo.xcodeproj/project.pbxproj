@@ -10,7 +10,6 @@
 		176312A874DF86D8F3B7B93D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5793DA658733CE71123A4DA3 /* libPods.a */; };
 		7DAA57681CD0097000C0DAAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57671CD0097000C0DAAC /* main.m */; };
 		7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576A1CD0097000C0DAAC /* AppDelegate.m */; };
-		7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA576D1CD0097000C0DAAC /* ViewController.m */; };
 		7DAA57711CD0097000C0DAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA576F1CD0097000C0DAAC /* Main.storyboard */; };
 		7DAA57731CD0097000C0DAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57721CD0097000C0DAAC /* Assets.xcassets */; };
 		7DAA57761CD0097000C0DAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAA57741CD0097000C0DAAC /* LaunchScreen.storyboard */; };
@@ -23,9 +22,6 @@
 		7DAA57A11CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
 		7DAA57A21CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
 		7DAA57A31CD0168200C0DAAC /* STLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A01CD0168200C0DAAC /* STLocation.m */; };
-		7DAA57A71CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
-		7DAA57A81CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
-		7DAA57A91CD10C1F00C0DAAC /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */; };
 		7DAA57AC1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
 		7DAA57AD1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
 		7DAA57AE1CD1243C00C0DAAC /* STRouteOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */; };
@@ -57,8 +53,6 @@
 		7DAA57671CD0097000C0DAAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7DAA57691CD0097000C0DAAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DAA576A1CD0097000C0DAAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7DAA576C1CD0097000C0DAAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DAA576D1CD0097000C0DAAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7DAA57701CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DAA57721CD0097000C0DAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DAA57751CD0097000C0DAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,8 +68,6 @@
 		7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		7DAA57A01CD0168200C0DAAC /* STLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLocation.m; sourceTree = "<group>"; };
 		7DAA57A41CD016A000C0DAAC /* STLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STLocation.h; sourceTree = "<group>"; };
-		7DAA57A51CD10C1F00C0DAAC /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
-		7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 		7DAA57AA1CD1243C00C0DAAC /* STRouteOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRouteOptions.h; sourceTree = "<group>"; };
 		7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRouteOptions.m; sourceTree = "<group>"; };
 		7DAA57B71CD1351200C0DAAC /* STRouteNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRouteNetworking.h; sourceTree = "<group>"; };
@@ -147,13 +139,9 @@
 			children = (
 				7DAA57691CD0097000C0DAAC /* AppDelegate.h */,
 				7DAA576A1CD0097000C0DAAC /* AppDelegate.m */,
-				7DAA576C1CD0097000C0DAAC /* ViewController.h */,
-				7DAA576D1CD0097000C0DAAC /* ViewController.m */,
 				7DAA576F1CD0097000C0DAAC /* Main.storyboard */,
 				7DAA579B1CD00F1C00C0DAAC /* MapViewController.h */,
 				7DAA579C1CD00F1C00C0DAAC /* MapViewController.m */,
-				7DAA57A51CD10C1F00C0DAAC /* OptionsViewController.h */,
-				7DAA57A61CD10C1F00C0DAAC /* OptionsViewController.m */,
 				7DAA57AA1CD1243C00C0DAAC /* STRouteOptions.h */,
 				7DAA57AB1CD1243C00C0DAAC /* STRouteOptions.m */,
 				7DAA57B71CD1351200C0DAAC /* STRouteNetworking.h */,
@@ -383,13 +371,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DAA576E1CD0097000C0DAAC /* ViewController.m in Sources */,
 				7DAA576B1CD0097000C0DAAC /* AppDelegate.m in Sources */,
 				7DAA57A11CD0168200C0DAAC /* STLocation.m in Sources */,
 				7DAA57681CD0097000C0DAAC /* main.m in Sources */,
 				7DAA57B91CD1351200C0DAAC /* STRouteNetworking.m in Sources */,
 				7DAA579D1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
-				7DAA57A71CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
 				7DAA57AC1CD1243C00C0DAAC /* STRouteOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +386,6 @@
 			files = (
 				7DAA57BA1CD1351200C0DAAC /* STRouteNetworking.m in Sources */,
 				7DAA57811CD0097000C0DAAC /* SinTraficoRouteAPIDemoTests.m in Sources */,
-				7DAA57A81CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
 				7DAA57A21CD0168200C0DAAC /* STLocation.m in Sources */,
 				7DAA57AD1CD1243C00C0DAAC /* STRouteOptions.m in Sources */,
 				7DAA579E1CD00F1C00C0DAAC /* MapViewController.m in Sources */,
@@ -412,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DAA578C1CD0097000C0DAAC /* SinTraficoRouteAPIDemoUITests.m in Sources */,
-				7DAA57A91CD10C1F00C0DAAC /* OptionsViewController.m in Sources */,
 				7DAA57A31CD0168200C0DAAC /* STLocation.m in Sources */,
 				7DAA57AE1CD1243C00C0DAAC /* STRouteOptions.m in Sources */,
 				7DAA579F1CD00F1C00C0DAAC /* MapViewController.m in Sources */,

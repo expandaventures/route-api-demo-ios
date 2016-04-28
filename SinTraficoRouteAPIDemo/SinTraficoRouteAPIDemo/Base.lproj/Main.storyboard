@@ -27,11 +27,6 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6v-Se-n43">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem title="Options" id="sHz-a0-uWv">
-                                        <connections>
-                                            <segue destination="JDW-RG-bEt" kind="presentation" identifier="mapToOptions" id="KXP-Py-qlp"/>
-                                        </connections>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="IZT-6f-NPp"/>
                                     <barButtonItem title="Route" id="exR-AZ-aWh">
                                         <connections>
@@ -59,97 +54,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="448" y="437"/>
-        </scene>
-        <!--Options View Controller-->
-        <scene sceneID="fmY-hN-6OJ">
-            <objects>
-                <viewController id="JDW-RG-bEt" customClass="OptionsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YhU-XN-XfJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="P2A-Yb-Ze7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="iDV-6Y-8rq">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hss-xn-vya">
-                                <rect key="frame" x="0.0" y="57" width="600" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="4TF-2N-Ywz"/>
-                                </constraints>
-                            </pickerView>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iqE-Gd-C2i">
-                                <rect key="frame" x="0.0" y="148" width="600" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="v6D-mT-WTa"/>
-                                </constraints>
-                            </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de transporte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcy-CZ-53M">
-                                <rect key="frame" x="20" y="28" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipo de auto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngf-Zt-wBk">
-                                <rect key="frame" x="20" y="119" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POIs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iA9-HS-bz9">
-                                <rect key="frame" x="20" y="210" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDz-f4-Cds">
-                                <rect key="frame" x="20" y="550" width="560" height="30"/>
-                                <state key="normal" title="OK"/>
-                                <connections>
-                                    <action selector="btnOK:" destination="JDW-RG-bEt" eventType="touchUpInside" id="yfg-sZ-fbW"/>
-                                </connections>
-                            </button>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVy-aA-hoN">
-                                <rect key="frame" x="0.0" y="239" width="600" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="FKt-6d-L2c"/>
-                                </constraints>
-                            </pickerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="DVy-aA-hoN" firstAttribute="top" secondItem="iA9-HS-bz9" secondAttribute="bottom" constant="8" id="1JV-pS-5wL"/>
-                            <constraint firstItem="iA9-HS-bz9" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" id="2aN-SM-8lQ"/>
-                            <constraint firstItem="iqE-Gd-C2i" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" constant="-20" id="4YY-M8-Mj4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hss-xn-vya" secondAttribute="trailing" constant="-20" id="7gu-pX-btp"/>
-                            <constraint firstItem="ngf-Zt-wBk" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" id="8Ea-jA-kad"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="DVy-aA-hoN" secondAttribute="trailing" constant="-20" id="JkP-oe-QnS"/>
-                            <constraint firstItem="hss-xn-vya" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" constant="-20" id="K2s-lR-hGd"/>
-                            <constraint firstItem="iA9-HS-bz9" firstAttribute="top" secondItem="iqE-Gd-C2i" secondAttribute="bottom" constant="8" id="Kcp-zW-hq9"/>
-                            <constraint firstItem="hss-xn-vya" firstAttribute="top" secondItem="rcy-CZ-53M" secondAttribute="bottom" constant="8" id="LLb-nJ-WdC"/>
-                            <constraint firstItem="rcy-CZ-53M" firstAttribute="trailing" secondItem="iDV-6Y-8rq" secondAttribute="trailingMargin" id="Njk-ky-V85"/>
-                            <constraint firstItem="rcy-CZ-53M" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" id="Nr6-bb-ifk"/>
-                            <constraint firstItem="ngf-Zt-wBk" firstAttribute="top" secondItem="hss-xn-vya" secondAttribute="bottom" constant="8" id="aNd-pn-UZa"/>
-                            <constraint firstItem="rcy-CZ-53M" firstAttribute="top" secondItem="YhU-XN-XfJ" secondAttribute="bottom" constant="8" id="gho-DO-Lgw"/>
-                            <constraint firstItem="eDz-f4-Cds" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" id="ifp-cT-FGq"/>
-                            <constraint firstItem="iqE-Gd-C2i" firstAttribute="top" secondItem="ngf-Zt-wBk" secondAttribute="bottom" constant="8" id="kGs-Hv-x6S"/>
-                            <constraint firstItem="DVy-aA-hoN" firstAttribute="leading" secondItem="iDV-6Y-8rq" secondAttribute="leadingMargin" constant="-20" id="l0O-TJ-zf1"/>
-                            <constraint firstItem="iA9-HS-bz9" firstAttribute="trailing" secondItem="iDV-6Y-8rq" secondAttribute="trailingMargin" id="luv-hd-msG"/>
-                            <constraint firstItem="eDz-f4-Cds" firstAttribute="trailing" secondItem="iDV-6Y-8rq" secondAttribute="trailingMargin" id="mPB-Ue-DHR"/>
-                            <constraint firstItem="ngf-Zt-wBk" firstAttribute="trailing" secondItem="iDV-6Y-8rq" secondAttribute="trailingMargin" id="nTM-2I-1Av"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="iqE-Gd-C2i" secondAttribute="trailing" constant="-20" id="pDZ-Xu-BaI"/>
-                            <constraint firstItem="P2A-Yb-Ze7" firstAttribute="top" secondItem="eDz-f4-Cds" secondAttribute="bottom" constant="20" id="sri-U6-MDH"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="poiIn" destination="DVy-aA-hoN" id="jKg-Tl-PXY"/>
-                        <outlet property="transportType" destination="hss-xn-vya" id="DRF-73-usB"/>
-                        <outlet property="vehicleType" destination="iqE-Gd-C2i" id="DLU-k9-E3C"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WeB-WF-oYK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1183" y="437"/>
         </scene>
     </scenes>
 </document>

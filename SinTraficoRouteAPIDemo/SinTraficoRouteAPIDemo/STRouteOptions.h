@@ -13,9 +13,6 @@
 
 @property (assign) CLLocationCoordinate2D start;
 @property (assign) CLLocationCoordinate2D end;
-@property (assign) NSInteger transportType;
-@property (assign) NSInteger vehicleType;
-@property (assign) NSInteger poiIn;
 
 - (NSDictionary*) parameters;
 
