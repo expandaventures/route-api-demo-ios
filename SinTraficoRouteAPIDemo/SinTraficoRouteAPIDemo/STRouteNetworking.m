@@ -29,7 +29,18 @@
             NSLog(@"Error: %@", error);
         } else {
             NSDictionary* geom = responseObject[@"routes"][0][@"geometry"];
-            NSLog(@"%@", [geom objectForKey:@"type"]);
+            CLLocationCoordinate2D coordinates[[[geom objectForKey:@"coordinates"] count]];
+            int i = 0;
+            for (NSArray* test in [geom objectForKey:@"coordinates"]) {
+                CLLocationCoordinate2D newCoordinates;
+                newCoordinates.latitude = [[test objectAtIndex:0] floatValue];
+                newCoordinates.longitude= [[test objectAtIndex:1] floatValue];
+                coordinates[i] = newCoordinates;
+                i++;
+            }
+            MKPolyline* routeLine = [MKPolyline polylineWithCoordinates:coordinates
+                                                                  count:[[geom objectForKey:@"coordinates"] count]];
+            NSLog(@"%@", routeLine);
         }
     }];
     [dataTask resume];
