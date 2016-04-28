@@ -52,6 +52,7 @@
 }
 
 - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
+    NSLog(@"hi");
     if ([overlay isKindOfClass:[MKPolyline class]]) {
         MKPolyline *route = overlay;
         MKPolylineRenderer *routeRenderer = [[MKPolylineRenderer alloc] initWithPolyline:route];
@@ -69,8 +70,17 @@
 }
 
 -(void) receiveRoutePolyline:(MKPolyline *)routeLine {
+    NSLog(@"Received line");
+    NSLog(@"%@", self.mapView.delegate);
+    NSLog(@"%@", self);
     self.routeLine = routeLine;
+    NSLog(@"%@", [self.routeLine description]);
+    if (self.routeLine == nil) {
+        NSLog(@"Nil duh!");
+    }
+    NSLog(@"%lu", (unsigned long)[self.routeLine pointCount]);
     [self.mapView addOverlay:self.routeLine level:MKOverlayLevelAboveLabels];
+    NSLog(@"Set line on map");
 }
 
 #pragma mark - Navigation
