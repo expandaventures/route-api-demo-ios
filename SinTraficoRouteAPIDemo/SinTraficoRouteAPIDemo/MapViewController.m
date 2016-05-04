@@ -8,7 +8,6 @@
 
 #import "MapViewController.h"
 #import "STRouteNetworking.h"
-#import "STLocation.h"
 
 @interface MapViewController ()
 
@@ -28,8 +27,8 @@
     CLLocationCoordinate2D endCoordinate;
     endCoordinate.latitude = 19.4136;
     endCoordinate.longitude= -99.1466;
-    STLocation *endLocation = [[STLocation alloc] initWithTitle:@"Fin" andCoordinate:endCoordinate];
-    [self.mapView addAnnotation:endLocation];
+    self.endLocation = [[STLocation alloc] initWithTitle:@"Fin" andCoordinate:endCoordinate];
+    [self.mapView addAnnotation:self.endLocation];
     // Center map
     CLLocationCoordinate2D zoomLocation;
     zoomLocation.latitude = (startCoordinate.latitude + endCoordinate.latitude) / 2;
@@ -40,6 +39,39 @@
     self.routeOptions = [[STRouteOptions alloc] init];
     self.routeOptions.start = startCoordinate;
     self.routeOptions.end = endCoordinate;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // GestureRecognizers to update end point of route
+    UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:nil];
+    doubleTap.numberOfTapsRequired = 2;
+    doubleTap.numberOfTouchesRequired = 1;
+    [self.mapView addGestureRecognizer:doubleTap];
+    
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                action:@selector(updateRouteEnd:)];
+    singleTap.numberOfTapsRequired = 1;
+    singleTap.numberOfTouchesRequired = 1;
+    [singleTap requireGestureRecognizerToFail: doubleTap];
+    [self.mapView addGestureRecognizer:singleTap];
+}
+
+- (void)updateRouteEnd:(UIGestureRecognizer *)gestureRecognizer
+{
+    if (gestureRecognizer.state != UIGestureRecognizerStateEnded)
+        return;
+    // Remove previous
+    [self.mapView removeAnnotation:self.endLocation];
+    [self.mapView removeOverlay:self.routeLine];
+    // Get location
+    CGPoint touchPoint = [gestureRecognizer locationInView:self.mapView];
+    CLLocationCoordinate2D tapLocation = [self.mapView convertPoint:touchPoint toCoordinateFromView:self.mapView];
+    // Update
+    self.endLocation = [[STLocation alloc] initWithTitle:@"Fin" andCoordinate:tapLocation];
+    self.routeOptions.end = self.endLocation.coordinate;
+    [self.mapView addAnnotation:self.endLocation];
 }
 
 - (IBAction)btnRoute:(id)sender {
